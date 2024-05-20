@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+font-family: Arial, Helvetica, sans-serif;
+text-decoration-line: underline;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+   margin: 1px;
+  
+}
+
+img {
+    width: 300px;
+   
+}
