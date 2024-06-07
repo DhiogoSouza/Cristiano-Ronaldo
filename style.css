@@ -1,6 +1,14 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
 :root {
-   
+  --fonte01: "Brygada 1918", cursive;
+  --fonte02: "Bona Nova", cursive;
+  --fonte03: "Bebas Neue", cursive;
 }
 
 body {
@@ -8,25 +16,29 @@ body {
 
 header {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   padding: 10px;
   background-color: rgba(0, 255, 255, 0.385);
   margin: -10px;
+  font-family: var(--fonte03);
 }
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: underline;
+  font-family: var(--fonte02);
 }
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration-line: underline;
+  font-family: var(--fonte02);
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
   margin: 1px;
   line-height: 30px;
+  font-family: var(--fonte01);
 }
 
 img {
